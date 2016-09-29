@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B255A3401D9D07AE00918014 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B255A33F1D9D07AE00918014 /* main.m */; };
+		B255A3431D9D07AE00918014 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B255A3421D9D07AE00918014 /* AppDelegate.m */; };
+		B255A3461D9D07AE00918014 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B255A3451D9D07AE00918014 /* ViewController.m */; };
+		B255A3491D9D07AE00918014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B255A3471D9D07AE00918014 /* Main.storyboard */; };
+		B255A34C1D9D07AE00918014 /* amaoda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B255A34A1D9D07AE00918014 /* amaoda.xcdatamodeld */; };
+		B255A34E1D9D07AE00918014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B255A34D1D9D07AE00918014 /* Assets.xcassets */; };
+		B255A3511D9D07AE00918014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B255A34F1D9D07AE00918014 /* LaunchScreen.storyboard */; };
+		B255A35C1D9D07AF00918014 /* amaodaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B255A35B1D9D07AF00918014 /* amaodaTests.m */; };
+		B255A3671D9D07AF00918014 /* amaodaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B255A3661D9D07AF00918014 /* amaodaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B255A3581D9D07AF00918014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B255A3331D9D07AE00918014 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B255A33A1D9D07AE00918014;
+			remoteInfo = amaoda;
+		};
+		B255A3631D9D07AF00918014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B255A3331D9D07AE00918014 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B255A33A1D9D07AE00918014;
+			remoteInfo = amaoda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B255A33B1D9D07AE00918014 /* amaoda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amaoda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B255A33F1D9D07AE00918014 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B255A3411D9D07AE00918014 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B255A3421D9D07AE00918014 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B255A3441D9D07AE00918014 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B255A3451D9D07AE00918014 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B255A3481D9D07AE00918014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B255A34B1D9D07AE00918014 /* amaoda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = amaoda.xcdatamodel; sourceTree = "<group>"; };
+		B255A34D1D9D07AE00918014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B255A3501D9D07AE00918014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B255A3521D9D07AE00918014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B255A3571D9D07AF00918014 /* amaodaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amaodaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B255A35B1D9D07AF00918014 /* amaodaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amaodaTests.m; sourceTree = "<group>"; };
+		B255A35D1D9D07AF00918014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B255A3621D9D07AF00918014 /* amaodaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amaodaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B255A3661D9D07AF00918014 /* amaodaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = amaodaUITests.m; sourceTree = "<group>"; };
+		B255A3681D9D07AF00918014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B255A3381D9D07AE00918014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B255A3541D9D07AF00918014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B255A35F1D9D07AF00918014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B255A3321D9D07AE00918014 = {
+			isa = PBXGroup;
+			children = (
+				B255A33D1D9D07AE00918014 /* amaoda */,
+				B255A35A1D9D07AF00918014 /* amaodaTests */,
+				B255A3651D9D07AF00918014 /* amaodaUITests */,
+				B255A33C1D9D07AE00918014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B255A33C1D9D07AE00918014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B255A33B1D9D07AE00918014 /* amaoda.app */,
+				B255A3571D9D07AF00918014 /* amaodaTests.xctest */,
+				B255A3621D9D07AF00918014 /* amaodaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B255A33D1D9D07AE00918014 /* amaoda */ = {
+			isa = PBXGroup;
+			children = (
+				B255A3411D9D07AE00918014 /* AppDelegate.h */,
+				B255A3421D9D07AE00918014 /* AppDelegate.m */,
+				B255A3441D9D07AE00918014 /* ViewController.h */,
+				B255A3451D9D07AE00918014 /* ViewController.m */,
+				B255A3471D9D07AE00918014 /* Main.storyboard */,
+				B255A34D1D9D07AE00918014 /* Assets.xcassets */,
+				B255A34F1D9D07AE00918014 /* LaunchScreen.storyboard */,
+				B255A3521D9D07AE00918014 /* Info.plist */,
+				B255A34A1D9D07AE00918014 /* amaoda.xcdatamodeld */,
+				B255A33E1D9D07AE00918014 /* Supporting Files */,
+			);
+			path = amaoda;
+			sourceTree = "<group>";
+		};
+		B255A33E1D9D07AE00918014 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B255A33F1D9D07AE00918014 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B255A35A1D9D07AF00918014 /* amaodaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B255A35B1D9D07AF00918014 /* amaodaTests.m */,
+				B255A35D1D9D07AF00918014 /* Info.plist */,
+			);
+			path = amaodaTests;
+			sourceTree = "<group>";
+		};
+		B255A3651D9D07AF00918014 /* amaodaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B255A3661D9D07AF00918014 /* amaodaUITests.m */,
+				B255A3681D9D07AF00918014 /* Info.plist */,
+			);
+			path = amaodaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B255A33A1D9D07AE00918014 /* amaoda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B255A36B1D9D07AF00918014 /* Build configuration list for PBXNativeTarget "amaoda" */;
+			buildPhases = (
+				B255A3371D9D07AE00918014 /* Sources */,
+				B255A3381D9D07AE00918014 /* Frameworks */,
+				B255A3391D9D07AE00918014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = amaoda;
+			productName = amaoda;
+			productReference = B255A33B1D9D07AE00918014 /* amaoda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B255A3561D9D07AF00918014 /* amaodaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B255A36E1D9D07AF00918014 /* Build configuration list for PBXNativeTarget "amaodaTests" */;
+			buildPhases = (
+				B255A3531D9D07AF00918014 /* Sources */,
+				B255A3541D9D07AF00918014 /* Frameworks */,
+				B255A3551D9D07AF00918014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B255A3591D9D07AF00918014 /* PBXTargetDependency */,
+			);
+			name = amaodaTests;
+			productName = amaodaTests;
+			productReference = B255A3571D9D07AF00918014 /* amaodaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B255A3611D9D07AF00918014 /* amaodaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B255A3711D9D07AF00918014 /* Build configuration list for PBXNativeTarget "amaodaUITests" */;
+			buildPhases = (
+				B255A35E1D9D07AF00918014 /* Sources */,
+				B255A35F1D9D07AF00918014 /* Frameworks */,
+				B255A3601D9D07AF00918014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B255A3641D9D07AF00918014 /* PBXTargetDependency */,
+			);
+			name = amaodaUITests;
+			productName = amaodaUITests;
+			productReference = B255A3621D9D07AF00918014 /* amaodaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B255A3331D9D07AE00918014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = admin1;
+				TargetAttributes = {
+					B255A33A1D9D07AE00918014 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B255A3561D9D07AF00918014 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B255A33A1D9D07AE00918014;
+					};
+					B255A3611D9D07AF00918014 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B255A33A1D9D07AE00918014;
+					};
+				};
+			};
+			buildConfigurationList = B255A3361D9D07AE00918014 /* Build configuration list for PBXProject "amaoda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B255A3321D9D07AE00918014;
+			productRefGroup = B255A33C1D9D07AE00918014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B255A33A1D9D07AE00918014 /* amaoda */,
+				B255A3561D9D07AF00918014 /* amaodaTests */,
+				B255A3611D9D07AF00918014 /* amaodaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B255A3391D9D07AE00918014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B255A3511D9D07AE00918014 /* LaunchScreen.storyboard in Resources */,
+				B255A34E1D9D07AE00918014 /* Assets.xcassets in Resources */,
+				B255A3491D9D07AE00918014 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B255A3551D9D07AF00918014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B255A3601D9D07AF00918014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B255A3371D9D07AE00918014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B255A3461D9D07AE00918014 /* ViewController.m in Sources */,
+				B255A3431D9D07AE00918014 /* AppDelegate.m in Sources */,
+				B255A34C1D9D07AE00918014 /* amaoda.xcdatamodeld in Sources */,
+				B255A3401D9D07AE00918014 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B255A3531D9D07AF00918014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B255A35C1D9D07AF00918014 /* amaodaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B255A35E1D9D07AF00918014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B255A3671D9D07AF00918014 /* amaodaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B255A3591D9D07AF00918014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B255A33A1D9D07AE00918014 /* amaoda */;
+			targetProxy = B255A3581D9D07AF00918014 /* PBXContainerItemProxy */;
+		};
+		B255A3641D9D07AF00918014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B255A33A1D9D07AE00918014 /* amaoda */;
+			targetProxy = B255A3631D9D07AF00918014 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B255A3471D9D07AE00918014 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B255A3481D9D07AE00918014 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B255A34F1D9D07AE00918014 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B255A3501D9D07AE00918014 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B255A3691D9D07AF00918014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B255A36A1D9D07AF00918014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B255A36C1D9D07AF00918014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = amaoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nanyang.amaoda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B255A36D1D9D07AF00918014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = amaoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nanyang.amaoda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B255A36F1D9D07AF00918014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = amaodaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nanyang.amaodaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amaoda.app/amaoda";
+			};
+			name = Debug;
+		};
+		B255A3701D9D07AF00918014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = amaodaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nanyang.amaodaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amaoda.app/amaoda";
+			};
+			name = Release;
+		};
+		B255A3721D9D07AF00918014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = amaodaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nanyang.amaodaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = amaoda;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B255A3731D9D07AF00918014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = amaodaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nanyang.amaodaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = amaoda;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B255A3361D9D07AE00918014 /* Build configuration list for PBXProject "amaoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B255A3691D9D07AF00918014 /* Debug */,
+				B255A36A1D9D07AF00918014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B255A36B1D9D07AF00918014 /* Build configuration list for PBXNativeTarget "amaoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B255A36C1D9D07AF00918014 /* Debug */,
+				B255A36D1D9D07AF00918014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B255A36E1D9D07AF00918014 /* Build configuration list for PBXNativeTarget "amaodaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B255A36F1D9D07AF00918014 /* Debug */,
+				B255A3701D9D07AF00918014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B255A3711D9D07AF00918014 /* Build configuration list for PBXNativeTarget "amaodaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B255A3721D9D07AF00918014 /* Debug */,
+				B255A3731D9D07AF00918014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B255A34A1D9D07AE00918014 /* amaoda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B255A34B1D9D07AE00918014 /* amaoda.xcdatamodel */,
+			);
+			currentVersion = B255A34B1D9D07AE00918014 /* amaoda.xcdatamodel */;
+			path = amaoda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B255A3331D9D07AE00918014 /* Project object */;
+}
